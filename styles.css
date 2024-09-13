@@ -1,0 +1,187 @@
+body {
+    background-color: #f5f5f5; 
+    background-image: url('images/pexels-danielabsi-952670.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333; 
+}
+nav {
+    background-color: rgb(92, 95, 96);  
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 1000; 
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-image: url(images/nav.jpg);
+    background-size: cover; 
+}
+
+h3 {
+    margin: 0;
+    color: rgb(224, 220, 220);   
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #ebefe6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);  
+    border-color: rgba(255, 255, 255, 0.6); 
+}
+#sec1, #sec2, #sec3 {
+    max-width: 1000px;
+    margin: 100px auto; 
+    padding: 60px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    background-color: white;  
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    background-image: url(images/abstract-triangles-background.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+#sec3{
+    text-align: left;
+}
+#sec1:hover, #sec2:hover, #sec3:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);  
+}
+
+#sec1 h1, #sec2 h1, #sec3 h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+    color: #d3cdcd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sec1 p, #sec2 p, #sec3 p {
+    font-size: 1.2rem;
+    color: #d4d1d1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(144, 148, 150);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.label {
+    font-size: larger;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cls1, .cls2, .cls3, .cls4, .cls5, .cls6 {
+    font-size: larger; 
+    margin-bottom: 10px;
+    color: #ede3e3;
+}
+
+.cls1 { margin-left: 153px; }
+.cls2 { margin-left: 68px; }
+.cls3 { margin-left: 70px; }
+.cls4 { margin-left: 30px; }
+.cls5 { margin-left: 141px; }
+.cls6 { margin-left: 140px; }
+
+.project {
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-image: url(images/abstract-triangles-background.jpg);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+.project:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15)
+}
+.project img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-right: 2px solid rgb(115, 118, 120);
+}
+.project-info {
+    padding: 20px;
+    flex: 1;
+}
+.project-info h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #ffffff;
+}
+.project-info p {
+    font-size: 16px;
+    color: #b9b6b6;
+    line-height: 1.6;
+}
+#projects-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px; 
+    margin-bottom: 20px;
+    color: #f8f8f8;
+}
